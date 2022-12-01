@@ -38,6 +38,6 @@ cd clone_fold
 python3 interface.py --model model_fold --memmory fold_to_save_genImages
 ```
 
-On the window there are two images, at right, the default generated setting all values of noise vector to 0, at left the generated image after changing the values of latent space, with that configuration you've around 200^20 combinations!
+On the window there are two images, at right, the default generated setting all values of noise vector to 0, at left the generated image after changing the values of latent space. With default script and vector size you've around 200^20 combinations!
 
 ![image](https://user-images.githubusercontent.com/114246096/204952093-beb2aaf0-908a-4910-be73-5576fc21a9a8.png)
