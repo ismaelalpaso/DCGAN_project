@@ -9,7 +9,7 @@ It contains the `GAN class` and functions to train and create plots during train
 https://user-images.githubusercontent.com/114246096/204888785-17bdad04-cd5a-4fe8-9926-5ab87dc94094.mp4
 
 
-To only train a model use that args:
+To only train a model use that args: 
 
 ```sh
 cd clone_fold
@@ -29,7 +29,7 @@ If you want to create a video automatically with the plots:
 ```
 
 ## interface.py script 
-It creates a GUI with tkinter that allows play with latent space to generate customized images with the models that you've created, the default latent vector size is 20.
+It creates a GUI with tkinter that allows play with latent space (noise vector) to generate customized images with the models that you've created, the default latent vector size is 20.
 
 To call it you can write:
 
@@ -37,3 +37,7 @@ To call it you can write:
 cd clone_fold
 python3 interface.py --model model_fold --memmory fold_to_save_genImages
 ```
+
+On the window there are two images, at right, the default generated setting all values of noise vector to 0, at left the generated image after changing the values of latent space, with that configuration you've around 200^20 combinations!
+
+![image](https://user-images.githubusercontent.com/114246096/204952093-beb2aaf0-908a-4910-be73-5576fc21a9a8.png)
